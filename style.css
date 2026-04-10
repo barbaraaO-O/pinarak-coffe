@@ -411,3 +411,28 @@ footer p {
         height: 180px;
     }
 }
+
+/* --- RESPONSIVE UNTUK HP --- */
+@media (max-width: 600px) {
+    .header-container {
+        justify-content: space-between; /* biar rapet */
+        padding: 0 15px; 
+    }
+
+    nav ul {
+        gap: 8px;              /* jarak lebih kecil */
+    }
+
+    nav ul li {
+        margin-right: 5px;     /* makin kecil */
+    }
+
+    .judul {
+        font-size: 1.4rem;     /* judul mengecil di HP */
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+}
